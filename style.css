@@ -1,0 +1,59 @@
+/* Estilos principales con inspiración urbana de skate, hiphop y grafiti */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #1a1a1a;
+  color: #fff;
+}
+
+header {
+  background: #111;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 4px solid #ff4500;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Impact', 'Haettenschweiler', sans-serif;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #ff4500;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid #ff4500;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Media query para mejorar el diseño en pantallas más grandes */
+@media (min-width: 600px) {
+  .galeria img {
+    width: 200px;
+    height: 200px;
+  }
+}
